@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background: darkseagreen;
+}
+
+.header {
+    width: 79px;
+    height: 29px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #051310;
+    word-spacing: 50px;
+    cursor: pointer;
+    
+
+}
+
+header {
+    word-spacing: 50px;
+    margin: 100px 550px;
+   
+
+}
+
+.caixa-1 {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    cursor: pointer;
+
+}
+
+.caixa-2 {
+    display: inline-block;
+    margin-left: 350px;
+    position: relative;
+    top: 30px;
+
+}
+
+.botao-1 {
+    position: absolute;
+    background: #5ad1e1;
+    border-radius: 20.5px;
+    Width: 130px;
+    Height: 41px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #080505;
+    cursor: pointer;
+    border: none;
+
+}
+.botao-2{
+    position: absolute;
+    background: #5ad1e1;
+    border-radius: 20.5px;
+    Width: 130px;
+    Height: 41px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #080505;
+    cursor: pointer;
+    border: none;
+
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+    position: relative;
+    bottom: 120px;
+    left: 100px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    height: 87px;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+}
+.header:hover{
+opacity: .4;
+}
+.header:active{
+    opacity: .2;
+}
+.botao-1:active{
+    opacity: .4;
+}
+.botao-1:hover{
+    opacity: .7;
+}
+.botao-2:active{
+    opacity: .4;
+
+}
+.botao-2:hover{
+    opacity: .7;
+}
+.caixa-1:hover{
+    -webkit-transform: translateY(-25px);
+}
